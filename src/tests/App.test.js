@@ -25,4 +25,11 @@ describe('Testing the component "<App />"', () => {
     const { pathname } = history.location;
     expect(pathname).toBe('/about');
   });
+  it('Should redirect to "/favorites" after clicking at "Favorite" link', () => {
+    const { history } = renderWithRouter(<App />);
+    const favoriteLink = screen.getByRole('link', { name: 'Favorite Pokémons' });
+    userEvent.click(favoriteLink);
+    const { pathname } = history.location;
+    expect(pathname).toBe('/favorites');
+  });
 });
