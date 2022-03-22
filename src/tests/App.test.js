@@ -32,4 +32,11 @@ describe('Testing the component "<App />"', () => {
     const { pathname } = history.location;
     expect(pathname).toBe('/favorites');
   });
+  it('Should return to "/" after clicking at Home link', () => {
+    const { history } = renderWithRouter(<App />);
+    const homeLink = screen.getByRole('link', { name: 'Home' });
+    userEvent.click(homeLink);
+    const { pathname } = history.location;
+    expect(pathname).toBe('/');
+  });
 });
