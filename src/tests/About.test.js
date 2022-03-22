@@ -18,8 +18,10 @@ describe('Testing the component "<About />"', () => {
     expect(secondParagraph).toBeInTheDocument();
   });
   it('Should have an image with the alt "Pokédex" and correct source URL', () => {
+    const URL = 'https://cdn2.bulbagarden.net/upload/thumb/8/86/Gen_I_Pok%C3%A9dex.png/800px-Gen_I_Pok%C3%A9dex.png';
+
     renderWithRouter(<About />);
     const image = screen.getByAltText('Pokédex');
-    expect(image).toHaveAttribute('src', 'https://cdn2.bulbagarden.net/upload/thumb/8/86/Gen_I_Pok%C3%A9dex.png/800px-Gen_I_Pok%C3%A9dex.png');
+    expect(image).toHaveAttribute('src', URL);
   });
 });
