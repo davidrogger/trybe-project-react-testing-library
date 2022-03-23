@@ -26,4 +26,9 @@ describe('Testing component <Pokemon />', () => {
     expect(pokemonImg).toHaveAttribute('src', firstPokemonUrlImg);
     expect(pokemonImg).toHaveAttribute('alt', `${firstPokemonName} sprite`);
   });
+  it('Should have a details link to gather more information about the pokemon', () => {
+    renderWithRouter(<App />);
+    const detailLink = screen.getByRole('link', { name: /more details/i });
+    expect(detailLink).toBeInTheDocument();
+  });
 });
