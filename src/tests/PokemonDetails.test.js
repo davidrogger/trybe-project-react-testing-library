@@ -1,5 +1,6 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import renderWithRouter from './renderWithRouter';
 
 import App from '../App';
@@ -50,5 +51,17 @@ describe('Testing the component <PokemonDetails />', () => {
       const locationTitle = screen.getByText(location);
       expect(locationTitle).toBeInTheDocument();
     });
+  });
+  it('Should be able to set a pokemon as favorite', () => {
+    const { history } = renderWithRouter(<App />);
+    history.push(`/pokemons/${id}`);
+    const favoriteCheck = screen.getByLabelText(/pokémon favoritado/i);
+    expect(favoriteCheck).toBeInTheDocument();
+    expect(favoriteCheck).toHaveProperty('checked', false);
+    userEvent.click(favoriteCheck);
+    expect(favoriteCheck).toHaveProperty('checked', true);
+    history.push('/favorites');
+    const favoritePokemon = screen.getByTestId('pokemon-name');
+    expect(favoritePokemon).toHaveTextContent(name);
   });
 });
