@@ -12,7 +12,7 @@
   </a>
 </div>
 
->*clique na imagem para acesso online do projeto*
+>*Projeto envolvendo testes automatizados, frontend desenvolvido pela trybe*
 #
 ## Projeto: `React Testing Library`
 - Foi aplicada todas técnicas apresentadas na seção, para criação de testes automatizados em um frontend ja desenvolvido pela trybe, garantindo que usando uma biblioteca de mutação(onde é alterado o comportamento dos elementos na aplicação), deveria ocorrer erros no teste, quando a aplicação se comportasse de forma errada.
