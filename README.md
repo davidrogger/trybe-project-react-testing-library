@@ -6,7 +6,7 @@
 #
 <div align="center">
   <a href="#">
-    <img width="30%" src="./readme-imgs/project_rtl_top.webp">
+    <img width="30%" src="./readme-imgs/project_rtl_top2.webp">
     <img width="30%" src="./readme-imgs/project_rtl_mid.webp">
     <img width="30%" src="./readme-imgs/project_rtl_bottom.webp">
   </a>
