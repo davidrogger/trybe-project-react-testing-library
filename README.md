@@ -5,7 +5,7 @@
 - Foi apresentado uma parte fundamental para desenvolvimento de software de qualidade, que são os testes, com foco na biblioteca do [react testing library](https://testing-library.com/). Monstrando boas práticas, uso de seletores, fluxo lógicos assíncronos.
 #
 <div align="center">
-  <a href="https://davidrogger.github.io/trybe-project-trybetunes">
+  <a href="#">
     <img width="30%" src="./readme-imgs/project_rtl_top.webp">
     <img width="30%" src="./readme-imgs/project_rtl_mid.webp">
     <img width="30%" src="./readme-imgs/project_rtl_bottom.webp">
