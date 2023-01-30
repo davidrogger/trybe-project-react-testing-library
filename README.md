@@ -32,7 +32,7 @@
 
 # Conclusão
 
-- Revisando esse projeto agora no final do curso, me lembrou muito a parte de raspagem de dados no python  para coletar informações do site o uso do RTL, o uso de testes ajuda muito no desenvolvimento, que muitas vezes você acaba revisando alguma funcionalidade sua ou de terceiro, que também é usada em outro lugar, que as vezes você esqueceu ou não sabe, e isso ajuda a evitar muita dor de cabeça futura, descrobri muito tarde a alteração de algo que teve efeito colateral em outro lugar é muito complicado. Isso ajuda a garantir a qualidade e da mais produtividade no desenvolvimento ao longo prazo.
+- O uso de testes ajuda muito no desenvolvimento, que muitas vezes você acaba revisando alguma funcionalidade sua ou de terceiro, que também é usada em outro lugar, que as vezes você esqueceu ou não sabe, e isso ajuda a evitar muita dor de cabeça futura, descrobri muito tarde a alteração de algo que teve efeito colateral em outro lugar é muito complicado. Isso ajuda a garantir a qualidade e da mais produtividade no desenvolvimento ao longo prazo.
 
 </details>
 
@@ -47,7 +47,14 @@
 ### Requisitos
 *Nome* | *Avaliação*
 --- | :---:
-1 - lore | :heavy_check_mark:
+1 - [App mutation test](https://github.com/davidrogger/trybe-project-react-testing-library/blob/main/src/tests/App.test.js) | :heavy_check_mark:
+2 - [About mutation test](https://github.com/davidrogger/trybe-project-react-testing-library/blob/main/src/tests/About.test.js) | :heavy_check_mark:
+3 - [FavoritePokemons mutation test](https://github.com/davidrogger/trybe-project-react-testing-library/blob/main/src/tests/FavoritePokemons.test.js) | :heavy_check_mark:
+4 - [NotFound mutation test](https://github.com/davidrogger/trybe-project-react-testing-library/blob/main/src/tests/NotFound.test.js) | :heavy_check_mark:
+5 - [Pokedex mutation test](https://github.com/davidrogger/trybe-project-react-testing-library/blob/main/src/tests/Pokedex.test.js) | :heavy_check_mark:
+6 - [Pokemon mutation test](https://github.com/davidrogger/trybe-project-react-testing-library/blob/main/src/tests/Pokemon.test.js) | :heavy_check_mark:
+7 - [PokemonDetails mutation test](https://github.com/davidrogger/trybe-project-react-testing-library/blob/main/src/tests/PokemonDetails.test.js) | :heavy_check_mark:
+
 
 </details>
 
@@ -58,7 +65,7 @@
     </strong>
   </summary>
 
-  - [x] - ~~Criar testes automatizados seguindo os requisitos da trybe.~~ ![data](https://badgen.net/badge/delivery/09-03-2022/green)
+  - [x] - ~~Criar testes automatizados seguindo os requisitos da trybe.~~ ![data](https://badgen.net/badge/delivery/23-03-2022/green)
 
 
 </details>
