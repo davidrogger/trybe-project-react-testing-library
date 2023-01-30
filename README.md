@@ -15,7 +15,7 @@
 >*clique na imagem para acesso online do projeto*
 #
 ## Projeto: `React Testing Library`
-- Foi aplicados todas técnicas apresentadas na seção, para criação de testes automatizados em um frontend ja desenvolvido pela trybe, garantindo que usando uma biblioteca de mutação, deveria ocorrer erros no teste, quando a aplicação se comportasse de forma errada.
+- Foi aplicada todas técnicas apresentadas na seção, para criação de testes automatizados em um frontend ja desenvolvido pela trybe, garantindo que usando uma biblioteca de mutação(onde é alterado o comportamento dos elementos na aplicação), deveria ocorrer erros no teste, quando a aplicação se comportasse de forma errada.
 
 # Tecnologias e ferramentas usadas 🛠
 
@@ -25,7 +25,10 @@
 
 # Desafios
 
-- lore
+- O uso do reanderWIthRouter para fazer o teste simular corretamente o uso de rotas do react single page.
+- Durante algumas falhas nos requisitos entender a abstração por trás da biblioteca de mutanção que testava se o teste falhava quando realmente era para falhar.
+- Organizar por arquivos foi algo natural que eu sempre tento abordar para tentar manter algo mais legivel.
+- Escrever descrições claras e objetivas para o teste, usei o inglês para praticar um mais a parte técnica do idioma.
 
 # Conclusão
 
